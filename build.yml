@@ -1,4 +1,14 @@
-build:
-  image: ubuntu:16.04
-  command: "echo yes"
+tasks:
+  build:
+    image: ubuntu:16.04
+    command: "echo build"
+  test:
+    image: ubuntu:16.04
+    command: "echo test"
+  upload:
+    image: ubuntu:16.04
+    command: "echo upload"
+  deploy:
+    image: ubuntu:16.04
+    command: "echo deploy"
 
