@@ -1,0 +1,4 @@
+build:
+  image: ubuntu:16.04
+  command: "echo yes"
+
